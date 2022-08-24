@@ -1,0 +1,179 @@
+.section1 .header {
+  background-color: #000;
+  height: 50px;
+  margin-bottom: 20px;
+}
+.section1 .boxes,
+.section1 .boxes2 {
+  justify-content: center;
+}
+.section1 .boxes .box1,
+.section1 .boxes2 .box1 {
+  width: 28%;
+  background-color: #d3d3d3;
+  height: 240px;
+  margin: 0 15px;
+  border-radius: 8px;
+}
+.section1 .boxes2 {
+  margin-top: 30px;
+}
+.section1 .footer {
+  border-radius: 8px;
+  margin-top: 100px;
+  height: 50px;
+  background-color: #dda0dd;
+}
+
+.section2 {
+  margin: 200px 0;
+}
+.section2 .header {
+  background-color: #d3d3d3;
+  height: 500px;
+}
+.section2 .header .title {
+  text-align: center;
+  font-weight: bolder;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.section2 .header .title h1 {
+  margin-top: 200px;
+  font-size: 80px;
+}
+.section2 .header .title p {
+  font-size: 50px;
+  margin-top: -10px;
+}
+.section2 nav {
+  margin: 35px 0;
+}
+.section2 nav ul {
+  display: flex;
+}
+.section2 nav ul li {
+  list-style: none;
+  margin: auto;
+}
+.section2 nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 22px;
+  font-weight: 600;
+}
+.section2 .boxes .box1 {
+  border: 2px solid #d3d3d3;
+  padding: 40px 80px;
+  width: auto;
+  font-weight: bolder;
+  margin-bottom: 50px;
+}
+.section2 .boxes .box1 h1 {
+  font-size: 38px;
+}
+.section2 .boxes .box1 h3 {
+  font-size: 25px;
+}
+.section2 .boxes .box1 ul li {
+  font-size: 20px;
+}
+
+.section3 nav {
+  border-bottom: 1.5px solid #959595;
+}
+.section3 nav ul {
+  display: flex;
+  justify-content: center;
+}
+.section3 nav ul li {
+  margin: 0 50px;
+  list-style: none;
+}
+.section3 nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+.section3 .products {
+  margin-top: 150px;
+}
+.section3 .products .stock {
+  margin-top: 20px;
+  width: 20% !important;
+}
+.section3 .products .stock p {
+  font-size: 15px;
+  font-weight: bolder;
+  margin: 5px 0;
+}
+.section3 .products .stock p span {
+  color: #a9a7a7;
+}
+.section3 .products .boxes {
+  flex-wrap: wrap;
+}
+.section3 .products .boxes .box1 {
+  margin: 0 2px;
+}
+.section3 .products .boxes .box1 .image {
+  height: 300px;
+  border: 1px solid #a9a7a7;
+}
+.section3 .products .boxes .box1 .image img {
+  margin-top: 50px;
+  width: 100%;
+}
+.section3 .products .boxes .box1 .text p {
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.section3 .products .boxes .box1 .text p span.span2 {
+  margin-left: 120px;
+}
+.section3 .products .boxes .box1 .text ul {
+  margin-left: 10px;
+  margin-top: -10px;
+  padding: 0;
+}
+.section3 .products .boxes .box1 .text ul li {
+  list-style: none;
+  margin-bottom: 10px;
+  color: #a9a7a7;
+  font-weight: 900px;
+  font-size: 17px;
+}
+
+.col-lg-12 {
+  width: 100%;
+}
+
+.col-lg-9 {
+  width: 75%;
+}
+
+.col-lg-4 {
+  width: 32%;
+}
+
+.col-lg-3 {
+  width: 25%;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.container {
+  width: 95%;
+}
+
+h2 {
+  text-align: center;
+  font-size: 50px;
+  color: #410b27;
+}/*# sourceMappingURL=style.css.map */
